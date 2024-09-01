@@ -1,0 +1,200 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Abrigo 01",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/archivos-iniciales/img/abrigos/01.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Abrigo 02",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/archivos-iniciales/img/abrigos/02.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Abrigo 03",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/archivos-iniciales/img/abrigos/03.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Abrigo 04",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/archivos-iniciales/img/abrigos/04.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Abrigo 05",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/archivos-iniciales/img/abrigos/05.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta 01",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/camisetas/01.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta 02",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/camisetas/02.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Camiseta 03",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/camisetas/03.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Camiseta 04",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/camisetas/04.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta 05",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/camisetas/05.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta 06",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/camisetas/06.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta 07",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/camisetas/07.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta 08",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/camisetas/08.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalon 01",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/pantalones/01.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalon 02",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/pantalones/02.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalon 03",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/pantalones/03.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalon 04",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/pantalones/04.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Pantalon 05",
+        "imagen": "https://github.com/carpicoder/e-commerce-desde-cero/blob/main/resultado-final/img/pantalones/05.jpg?raw=true",
+        "quantity": 1,
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    }
+]

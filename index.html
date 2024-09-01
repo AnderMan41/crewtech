@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ventas</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="back">
+
+            <div class="menu menu-container">
+                <a href="#" class="logo">CrewTech</a>
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="../img/menu.png" class="menu-icono" alt="">
+                </label>
+
+                <nav class="navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#">Productos</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacto</a>
+                        </li>
+                        <li class="menu-carrito">
+                            <a href="carrito.html">Carrito</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- SLIDER -->
+    <div class="slider-container">
+        <div class="slide">
+            <ul>
+                <li><img src="img/slider/1.jpeg" alt=""></li>
+                <li><img src="img/slider/2.jpg" alt=""></li>
+                <li><img src="img/slider/3.jpg" alt=""></li>
+                <li><img src="img/slider/4.jpg" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="text-overlay">
+            <h1 class="welcome-slider">Bienvenido a CrewTech</h1>
+            <p>Explora nuestras ofertas exclusivas y productos únicos</p>
+            <a href="https://www.instagram.com/crewtech.shop" target="_blank"><button class="btn-welcome">Ver</button></a>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo-title">Ve nuestras categorias ➡️</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+            </header>
+            <nav>
+                <ul class="menu-categorias">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="abrigos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Abrigos</button>
+                    </li>
+                    <li>
+                        <button id="camisetas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Camisetas</button>
+                    </li>
+                    <li>
+                        <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Pantalones</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="carrito.html">
+                            <i class="bi bi-cart-fill"></i>Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2024 AnderDev</p>
+            </footer>
+        </aside>
+        <main>
+
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+            
+                <!-- PRODUCTOS POR JS -->
+
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+
+        <div id="contacto" class="footer-bg">
+            <h2 class="contactanos">CONTACTANOS</h2>
+            
+            <form action="https://formsubmit.co/crewtech.oficial@gmail.com" method="POST">
+
+                <div class="campo-1">
+                    <input class="campo" type="text" name="name" placeholder="Nombre">
+                    <input class="campo" type="number" name="phone" placeholder="Telefono">
+                </div>
+
+                <div class="campo-1">
+                    <input class="campo" type="text" name="direccion" placeholder="Direccion">
+                    <input class="campo" type="email" name="email" placeholder="Correo">
+                </div>
+                <textarea class="campo" cols="30" rows="10" placeholder="Texto"></textarea>
+                <input type="submit" value="Enviar" class="btn-1">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/client/index.html">
+                <input type="hidden" name="_captcha" value="false">
+
+            </form>
+        </div>
+
+        <div class="footer-txt">
+            <p class="parrafo">
+                @AnderDev
+            </p>
+        </div>
+
+    </footer>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> 
+    <script src="main.js"></script>
+    <script src="menu.js"></script>
+    <script src="server/index.js"></script>
+</body>
+</html>
