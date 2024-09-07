@@ -14,7 +14,7 @@ const client = new MercadoPagoConfig({ accessToken: 'TEST-3736412988635405-08251
 // puerto server
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(express.json());
